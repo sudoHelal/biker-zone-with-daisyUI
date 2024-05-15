@@ -19,31 +19,31 @@
       rel="stylesheet"
     />
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                'btn-primary': '#E76F51',
-                'carousal-bg-color': '#FDF0ED',
-              }
-            }
-          }
-        }
-      </script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "btn-primary": "#E76F51",
+              "carousal-bg-color": "#FDF0ED",
+            },
+          },
+        },
+      };
+    </script>
     <style>
-        .font-poppins{
-            font-family: "Poppins", sans-serif;
-        }
-        .font-manrope{
-            font-family: "Manrope", sans-serif;
-        }
+      .font-poppins {
+        font-family: "Poppins", sans-serif;
+      }
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
     </style>
   </head>
   <body class="font-poppins">
     <header class="md:container md:mx-auto">
       <nav>
-        <div >
+        <div>
           <div class="navbar bg-base-100">
             <div class="flex-1">
               <div class="dropdown">
@@ -73,7 +73,9 @@
                   <li><a>Contact</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost font-poppins font-blod text-xl">Go Ride</a>
+              <a class="btn btn-ghost font-poppins font-blod text-xl"
+                >Go Ride</a
+              >
             </div>
             <div class="navbar-end hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -82,151 +84,217 @@
                 <li><a>News</a></li>
                 <li><a>Contact</a></li>
               </ul>
-              
             </div>
             <div class="">
-                <a class="btn  bg-btn-primary text-white">Login</a>
-              </div>
+              <a class="btn bg-btn-primary text-white">Login</a>
+            </div>
           </div>
         </div>
       </nav>
 
       <!-- Slider or carosual -->
-      <div class="carousel bg-[#FDF0ED] lg:h-[550px]   w-full">
+      <div class="carousel bg-[#FDF0ED] lg:h-[550px] w-full">
         <!-- slider 1 -->
         <div id="slide1" class="carousel-item relative w-full">
-          <div class="flex flex-col lg:flex-row lg:p-28 p-20 items-center gap-2.5">
+          <div
+            class="flex flex-col lg:flex-row lg:p-28 p-20 items-center gap-2.5"
+          >
             <div class="flex-1 space-y-6">
-                <h3 class="text-4xl lg:text-6xl font-bold text-black">Ride-on R15 V4 <br> with Smile</h3>
-                <p class="text-base font-light text-black">Amet minim mollit non deserunt ullamco 
-                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <button class="btn bg-btn-primary text-white">Purchase</button>
+              <h3 class="text-4xl lg:text-6xl font-bold text-black">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h3>
+              <p class="text-base font-light text-black">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-btn-primary text-white">Purchase</button>
             </div>
             <div class="flex-1">
-                <img src="images/slider/bike1.png" class="w-full" />
+              <img src="images/slider/bike1.png" class="w-full" />
             </div>
           </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle">❮</a> 
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide4" class="btn btn-circle">❮</a>
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
-        </div> 
+        </div>
         <!-- slider 2 -->
         <div id="slide2" class="carousel-item relative w-full">
-          <div class="flex flex-col lg:flex-row lg:p-28 p-20 items-center gap-2.5">
+          <div
+            class="flex flex-col lg:flex-row lg:p-28 p-20 items-center gap-2.5"
+          >
             <div class="flex-1 space-y-6">
-                <h3 class="text-4xl lg:text-6xl font-bold text-black">Ride-on R15 V4 <br> with Smile</h3>
-                <p class="text-base font-light text-black">Amet minim mollit non deserunt ullamco 
-                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <button class="btn bg-btn-primary text-white">Purchase</button>
+              <h3 class="text-4xl lg:text-6xl font-bold text-black">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h3>
+              <p class="text-base font-light text-black">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-btn-primary text-white">Purchase</button>
             </div>
             <div class="flex-1">
-                <img src="images/slider/bike2.png" class="w-full" />
+              <img src="images/slider/bike2.png" class="w-full" />
             </div>
           </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle">❮</a> 
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
-        </div> 
+        </div>
         <!-- slider 3 -->
         <div id="slide3" class="carousel-item relative w-full">
-          <div class="flex flex-col lg:flex-row lg:p-28 p-20 items-center gap-2.5">
+          <div
+            class="flex flex-col lg:flex-row lg:p-28 p-20 items-center gap-2.5"
+          >
             <div class="flex-1 space-y-6">
-                <h3 class="text-4xl lg:text-6xl font-bold text-black">Ride-on R15 V4 <br> with Smile</h3>
-                <p class="text-base font-light text-black">Amet minim mollit non deserunt ullamco 
-                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <button class="btn bg-btn-primary text-white">Purchase</button>
+              <h3 class="text-4xl lg:text-6xl font-bold text-black">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h3>
+              <p class="text-base font-light text-black">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-btn-primary text-white">Purchase</button>
             </div>
             <div class="flex-1">
-                <img src="images/slider/bike3.png" class="w-full" />
+              <img src="images/slider/bike3.png" class="w-full" />
             </div>
           </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle">❮</a> 
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
             <a href="#slide4" class="btn btn-circle">❯</a>
           </div>
-        </div> 
+        </div>
         <!-- slider 4 -->
         <div id="slide4" class="carousel-item relative w-full">
-          <div class="flex flex-col lg:flex-row lg:p-28 p-20 items-center gap-2.5">
+          <div
+            class="flex flex-col lg:flex-row lg:p-28 p-20 items-center gap-2.5"
+          >
             <div class="flex-1 space-y-6">
-                <h3 class="text-4xl lg:text-6xl font-bold text-black">Ride-on R15 V4 <br> with Smile</h3>
-                <p class="text-base font-light text-black">Amet minim mollit non deserunt ullamco 
-                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                    <button class="btn bg-btn-primary text-white">Purchase</button>
+              <h3 class="text-4xl lg:text-6xl font-bold text-black">
+                Ride-on R15 V4 <br />
+                with Smile
+              </h3>
+              <p class="text-base font-light text-black">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-btn-primary text-white">Purchase</button>
             </div>
             <div class="flex-1">
-                <img src="images/slider/bike4.png" class="w-full" />
+              <img src="images/slider/bike4.png" class="w-full" />
             </div>
           </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle">❮</a> 
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
         </div>
       </div>
     </header>
     <main class="md:container md:mx-auto">
-
       <!-- Featured Bike section start -->
       <section class="my-28 lg:px-24 px-8">
-        <h3 class="text-5xl font-semibold text-center text-black">Fetured Bikes In This Year</h3>
-        <p class="text-[#E76F51] text-sm text-center underline">Best bike collection</p>
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-36 lg:mx-auto mt-24">
+        <h3 class="text-5xl font-semibold text-center text-black">
+          Fetured Bikes In This Year
+        </h3>
+        <p class="text-[#E76F51] text-sm text-center underline">
+          Best bike collection
+        </p>
+        <div
+          class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-36 lg:mx-auto mt-24"
+        >
           <div class="flex justify-center items-center">
-            <img src="images/others/feature-bike.png" class="w-[100%]" alt="">
+            <img src="images/others/feature-bike.png" class="w-[100%]" alt="" />
           </div>
           <div class="flex justify-center items-center">
-            <img src="images/others/feature-bike.png" class="w-[100%]" alt="">
+            <img src="images/others/feature-bike.png" class="w-[100%]" alt="" />
           </div>
           <div class="flex justify-center items-center">
-            <img src="images/others/feature-bike.png" class="w-[100%]" alt="">
+            <img src="images/others/feature-bike.png" class="w-[100%]" alt="" />
           </div>
         </div>
       </section>
       <!-- Featured Bike section end -->
 
-
       <!-- Latest News start  -->
       <section class="my-28 lg:px-24 px-8">
         <div>
-          <h3 class="text-5xl font-semibold text-black text-center">Latest News</h3>
-          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-12">
+          <h3 class="text-5xl font-semibold text-black text-center">
+            Latest News
+          </h3>
+          <div
+            class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-12"
+          >
             <!-- card -1  -->
-            <div class="card  bg-base-100 shadow-xl">
-              <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
+            <div class="card bg-base-100 shadow-xl">
+              <figure>
+                <img src="/images/others/latest1.png" alt="Shoes" />
+              </figure>
               <div class="card-body space-y-5">
-                <h2 class="card-title font-semibold text-3xl text-black">Ducati XDIAVEL S-73</h2>
-                <p class="text-[#6C6C6C] text-base">If a dog chews shoes whose shoes does he choose?</p>
+                <h2 class="card-title font-semibold text-3xl text-black">
+                  Ducati XDIAVEL S-73
+                </h2>
+                <p class="text-[#6C6C6C] text-base">
+                  If a dog chews shoes whose shoes does he choose?
+                </p>
                 <div class="card-actions justify-start">
-                  <button class="btn bg-btn-primary text-lg uppercase">purchase</button>
+                  <button class="btn bg-btn-primary text-lg uppercase">
+                    purchase
+                  </button>
                 </div>
               </div>
             </div>
             <!-- card -2  -->
-            <div class="card  bg-base-100 shadow-xl">
-              <figure><img src="/images/others/latest2.png" alt="Shoes" /></figure>
+            <div class="card bg-base-100 shadow-xl">
+              <figure>
+                <img src="/images/others/latest2.png" alt="Shoes" />
+              </figure>
               <div class="card-body space-y-5">
-                <h2 class="card-title font-semibold text-3xl text-black">Ducati XDIAVEL S-73</h2>
-                <p class="text-[#6C6C6C] text-base">If a dog chews shoes whose shoes does he choose?</p>
+                <h2 class="card-title font-semibold text-3xl text-black">
+                  Ducati XDIAVEL S-73
+                </h2>
+                <p class="text-[#6C6C6C] text-base">
+                  If a dog chews shoes whose shoes does he choose?
+                </p>
                 <div class="card-actions justify-start">
-                  <button class="btn bg-btn-primary text-lg uppercase">purchase</button>
+                  <button class="btn bg-btn-primary text-lg uppercase">
+                    purchase
+                  </button>
                 </div>
               </div>
             </div>
             <!-- card -3  -->
-            <div class="card  bg-base-100 shadow-xl">
-              <figure><img src="/images/others/latest3.png" alt="Shoes" /></figure>
+            <div class="card bg-base-100 shadow-xl">
+              <figure>
+                <img src="/images/others/latest3.png" alt="Shoes" />
+              </figure>
               <div class="card-body space-y-5">
-                <h2 class="card-title font-semibold text-3xl text-black">Ducati XDIAVEL S-73</h2>
-                <p class="text-[#6C6C6C] text-base">If a dog chews shoes whose shoes does he choose?</p>
+                <h2 class="card-title font-semibold text-3xl text-black">
+                  Ducati XDIAVEL S-73
+                </h2>
+                <p class="text-[#6C6C6C] text-base">
+                  If a dog chews shoes whose shoes does he choose?
+                </p>
                 <div class="card-actions justify-start">
-                  <button class="btn bg-btn-primary text-lg uppercase">purchase</button>
+                  <button class="btn bg-btn-primary text-lg uppercase">
+                    purchase
+                  </button>
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
       </section>
@@ -234,24 +302,51 @@
 
       <!-- Happy client says section start -->
       <section class="my-28 lg:px-24 px-8">
-        <h3 class="text-5xl font-semibold text-black text-center">Happy <span class="text-btn-primary">client says</span></h3>
+        <h3 class="text-5xl font-semibold text-black text-center">
+          Happy <span class="text-btn-primary">client says</span>
+        </h3>
 
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 gird-cols-1 gap-11 mt-12">
+        <div
+          class="grid lg:grid-cols-3 md:grid-cols-2 gird-cols-1 gap-11 mt-12"
+        >
           <!-- Happy card - 1 -->
-          <div class="card p-10 bg-base-100 border border-[#DEDEDE] rounded ">
-            <figure><img src="images/others/user-1.png" class="w-36" alt="Shoes" /></figure>
+          <div class="card p-10 bg-base-100 border border-[#DEDEDE] rounded">
+            <figure>
+              <img src="images/others/user-1.png" class="w-36" alt="Shoes" />
+            </figure>
             <div class="card-body">
-              <p class="text-center mt-7">Slate helps you see how 
-                many more days you need 
-                to work to reach your financial 
-                goal for the month and year.</p>
-                <div class="rating justify-center my-4">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                </div>
+              <p class="text-center mt-7">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <div class="rating justify-center my-4">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
               <div class="text-center space-y-4">
                 <h5>Regina Miles</h5>
                 <p>Banker</p>
@@ -259,20 +354,43 @@
             </div>
           </div>
           <!-- Happy card - 2 -->
-          <div class="card p-10 bg-base-100 border border-[#DEDEDE] rounded ">
-            <figure><img src="images/others/user-2.png" class="w-36" alt="Shoes" /></figure>
+          <div class="card p-10 bg-base-100 border border-[#DEDEDE] rounded">
+            <figure>
+              <img src="images/others/user-2.png" class="w-36" alt="Shoes" />
+            </figure>
             <div class="card-body">
-              <p class="text-center mt-7">Slate helps you see how 
-                many more days you need 
-                to work to reach your financial 
-                goal for the month and year.</p>
-                <div class="rating justify-center my-4">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                </div>
+              <p class="text-center mt-7">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <div class="rating justify-center my-4">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
               <div class="text-center space-y-4">
                 <h5>Regina Miles</h5>
                 <p>Banker</p>
@@ -280,20 +398,43 @@
             </div>
           </div>
           <!-- Happy card - 3 -->
-          <div class="card p-10 bg-base-100 border border-[#DEDEDE] rounded  ">
-            <figure><img src="images/others/user-3.png" class="w-36" alt="Shoes" /></figure>
+          <div class="card p-10 bg-base-100 border border-[#DEDEDE] rounded">
+            <figure>
+              <img src="images/others/user-3.png" class="w-36" alt="Shoes" />
+            </figure>
             <div class="card-body">
-              <p class="text-center mt-7">Slate helps you see how 
-                many more days you need 
-                to work to reach your financial 
-                goal for the month and year.</p>
-                <div class="rating justify-center my-4">
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                </div>
+              <p class="text-center mt-7">
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <div class="rating justify-center my-4">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
               <div class="text-center space-y-4">
                 <h5>Regina Miles</h5>
                 <p>Banker</p>
@@ -301,9 +442,70 @@
             </div>
           </div>
         </div>
-
       </section>
       <!-- Happy client says section end-->
+
+      <!-- FAQ Section Start -->
+      <section class="my-28 lg:px-24 px-8">
+        <h3 class="text-5xl font-semibold text-black text-center">
+          Frequently Asked <span class="text-btn-primary">Questions</span>
+        </h3>
+        <div class="hero min-h-screen lg:mt-28 ">
+          <div class="hero-content flex-col lg:gap-36 lg:flex-row">
+            <img src="/images/others/faq.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                  What are the most important things I should
+                  know about riding a bike?              
+                  </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                  What are the most important things I should
+                  know about riding a bike?              
+                  </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                  What are the most important things I should
+                  know about riding a bike?              
+                  </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ Section End -->
     </main>
     <footer></footer>
   </body>
